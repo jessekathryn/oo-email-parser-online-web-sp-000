@@ -14,7 +14,7 @@ def parse(emails)
    emails
    end
  end
-
+end
 
 
 
