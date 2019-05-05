@@ -8,7 +8,7 @@ end
 
 def parse(emails)
  self.each do |email|
-   
+   .name = person.name.split(" ").collect{|w| w.capitalize}.join(" ")
 end
 
 
