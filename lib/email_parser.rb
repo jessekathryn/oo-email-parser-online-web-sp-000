@@ -12,8 +12,8 @@ def parse(emails)
  emails.each do |email|
    emails = emails.split(" ").collect{|w| w.capitalize}.join(" ")
    emails
-  end
-end
+   end
+ end
 
 
 
