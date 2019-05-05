@@ -7,7 +7,8 @@ def initialize(emails)
 end
 
 def parse(emails)
- self.each do emails
+ self.each do |email|
+   
 end
 
 
