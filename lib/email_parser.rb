@@ -4,8 +4,13 @@ attr_accessor :emails
 
 def initialize(emails)
  @emails = emails
+ @parse
  end
+
+def parse(emails)
+  
 end
+
 
 
 
