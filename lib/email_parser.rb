@@ -9,7 +9,7 @@ end
 emails = []
 
 def parse(emails)
- self.each do |email|
+ emails.each do |email|
    emails = emails.split(" ").collect{|w| w.capitalize}.join(" ")
 
 
