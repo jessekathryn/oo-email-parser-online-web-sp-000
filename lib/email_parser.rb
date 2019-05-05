@@ -6,10 +6,12 @@ def initialize(emails)
  @emails = emails
 end
 
+emails = []
+
 def parse(emails)
  self.each do |email|
-   .name = person.name.split(" ").collect{|w| w.capitalize}.join(" ")
-end
+   emails = emails.split(" ").collect{|w| w.capitalize}.join(" ")
+
 
 
 
