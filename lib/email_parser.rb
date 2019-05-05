@@ -9,8 +9,7 @@ end
 emails = []
 
 def parse
- @emails = emails.split(/,./)
- @emails.join(",")
+ @emails = emails.split(/,|./)
  @emails.uniq
  end
 end
