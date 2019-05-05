@@ -10,7 +10,7 @@ emails = []
 
 def parse(emails)
  emails.each do |email|
-   emails = emails.split(" ").collect{|w| w.capitalize}.join(" ")
+   email = email.split(" ")
    emails
    end
  end
