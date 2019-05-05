@@ -8,7 +8,7 @@ end
 
 emails = []
 
-def parse(emails)
+def parse
  @emails = email.split(" ") || email.split(",")
  @emails.uniq
  end
