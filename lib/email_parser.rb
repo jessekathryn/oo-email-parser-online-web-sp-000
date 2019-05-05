@@ -10,6 +10,7 @@ emails = []
 
 def parse
  @emails = emails.split(/,./)
+ @emails.join(",")
  @emails.uniq
  end
 end
