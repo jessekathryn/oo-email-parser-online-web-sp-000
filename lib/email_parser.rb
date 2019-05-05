@@ -9,15 +9,11 @@ end
 emails = []
 
 def parse(emails)
- emails.each do |email|
-   emails = email.split(" ")
+ emails = email.split(" ") || email.split(",")
    emails
    end
  end
 end
-
-
-
 
 
 # Build a class EmailParser that accepts a string of unformatted 
