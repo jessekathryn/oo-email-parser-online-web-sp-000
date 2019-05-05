@@ -10,9 +10,8 @@ emails = []
 
 def parse(emails)
  emails = email.split(" ") || email.split(",")
-   emails
-   end
-  end
+ emails
+ end
 end
 
 # Build a class EmailParser that accepts a string of unformatted 
