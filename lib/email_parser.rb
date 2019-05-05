@@ -10,11 +10,11 @@ end
 
 def initialize(emails)
  @emails = emails
- @parse
- end
+ @@all << self
+end
 
 def parse(emails)
-  
+ @emails 
 end
 
 
