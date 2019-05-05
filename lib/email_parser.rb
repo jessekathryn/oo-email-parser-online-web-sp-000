@@ -10,7 +10,7 @@ emails = []
 
 def parse(emails)
  emails = email.split(" ") || email.split(",")
- emails
+ emails = self.new
  end
 end
 
